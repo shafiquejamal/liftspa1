@@ -18,20 +18,20 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav">
-                <li id="page1Link">
-                    <a data-ng-click="page1()">Page 1</a>
+                <li>
+                    <a data-ng-click="showMe='page1'">Page 1</a>
                 </li>
-                <li id="page2Link">
-                    <a data-ng-click="page2()">Page 2</a>
+                <li>
+                    <a data-ng-click="showMe='page2'">Page 2</a>
                 </li>
-                <li id="page3Link">
-                    <a data-ng-click="page3()">Page 3</a>
+                <li>
+                    <a data-ng-click="showMe='page3'">Page 3</a>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li id="loginLink"><a data-ng-click="login()" >Login</a></li>
-                <li id="registerLink"><a data-ng-click="register()" >Register</a></li>
+                <li><a data-ng-click="showMe='loginPage'" >Login</a></li>
+                <li><a data-ng-click="showMe='registerPage'" >Register</a></li>
             </ul>
 
         </div>
